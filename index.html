@@ -1,61 +1,157 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ClipBordLandPage</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
     <header>
-    <div class="paragrafo_1">
-        <img src="images/logo.svg" alt="Logo_do_site">
-        <h2>A history of everything you copy</h2>
-        <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices</p>
-            <ul class="botoes">
-                <li><a href="#">Download for iOS</a></li>
-                <li><a href="#">Download for Mac</a></li>
-            </ul>
-    </div>
-    
-    </header>
-    <section>
-        <div class="paragrafo_2">
-        <h3>Keep track of your snippets</h3>
-        <p>Clipboard instantly stores any item you copy in the cloud,
-         meaning you can access your snippets immediately on all your devices. 
-         Our Mac and iOS apps will help you organize everything.</p>
+        <div class="paragrafo_1">
+            <div class="para_img_1">
+                <img src="images/logo.svg" alt="Logo_do_site">
+            </div>
+            <div class="para_texto">
+                <h2>A history of everything you copy</h2>
+                <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on
+                    all your devices</p>
+            </div>
+            <div class="botoes">
+                <button id="botoes1"> Download for iOS </button>
+                <button id="botoes2"> Download for MAC </button>
+            </div>
         </div>
-        <img src="images/image-computer.png" alt="ComputadorAzul">
-        <ul>
+    </header>
+    <main>
+        <section>
+            <div class="paragrafo_2">
+                <div class="paragrafo_2_h3">
+                    <h3>Keep track of your snippets</h3>
+                </div>
+                <div class="paragrafo_2_p">
+                    <p>Clipboard instantly stores any item you copy in the cloud,
+                        meaning you can access your snippets immediately on all your devices.
+                        Our Mac and iOS apps will help you organize everything.</p>
+                </div>
+            </div>
+            <section class="computador_azul">
+                <div class="computadorazul_img">
+                    <img src="images/image-computer.png" alt="">
+                </div>
+                <div class="computadorazul_lista">
+                    <ul>
+                        <li>
+                            <h4>Quick Search</h4>
+                            <p>Easily search your snippets by content, category, web address, application, and more.</p>
+                        </li>
+                        <li>
+                            <h4>iCloud Sync</h4>
+                            <p>Instantly saves and syncs snippets across all your devices.</p>
+                        </li>
+                        <li>
+                            <h4>Complete History</h4>
+                            <p>Retrieve any snippets from the first moment you started using the app.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+        <section class="computador_vermelho">
+            <div class="computador_vermelho_texto">
+                <h3>Access Clipboard anywhere</h3>
+                <p>Whether you're on the go, or at your computer, you can access all your Clipboard snippets in a few
+                    simple clicks.</p>
+            </div>
+            <div class="computador_vermelho_img">
+                <img src="images/image-devices.png" alt="Imagem Devices">
+            </div>
+        </section>
+        <section class="supercharge">
+            <div class="supercharge_texto1">
+                <h3>Supercharge your workflow</h3>
+                <p>We've got the tools to boost your productivity.</p>
+            </div>
+            <ul class="supercharge_lista1">
+                <li>
+                    <img src="images/icon-blacklist.svg" alt="blacklist">
+                    <h3>Create blacklist</h3>
+                    <p>Ensure sensitive information never makes its way to your
+                        clipboard by excluding certain sources.</p>
+                </li>
+                <li>
+                    <img src="images/icon-text.svg" alt="icone texto">
+                    <h3>Plain text snippets</h3>
+                    <p>Remove unwanted
+                        formatting from copied text for a consistent look</p>
+                </li>
+                <li>
+                    <img src="images/icon-preview.svg" alt="Preview">
+                    <h3>Sneak preview</h3>
+                    <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+                </li>
+            </ul>
+            </div>
+            <div class="list-icones">
+                <ul>
+                    <li>
+                        <img src="images/logo-google.png" alt="google">
+                    </li>
+                    <li>
+                        <img src="images/logo-ibm.png" alt="ibm">
+                    </li>
+                    <li>
+                        <img src="images/logo-microsoft.png" alt="logo-microsoft">
+                    </li>
+                    <li>
+                        <img src="images/logo-hp.png" alt="logo-hp">
+                    </li>
+                    <li>
+                        <img src="images/logo-vector-graphics.png" alt="logo-vector-graphics">
+                    </li>
+                </ul>
+            </div>
+            <div class="supercharge_textofinal">
+                <h2>Clipboard for iOS and Mac OS</h2>
+                <div class="texto_p">
+                    <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and
+                        you're ready to start adding to your clipboard.</p>
+                </div>
+            </div>
+            <div class="supercharge_botoes">
+                <button id="botoes1"> Download for iOS </button>
+                <button id="botoes2"> Download for MAC </button>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer_final">
+        <div class="footer_img">
+            <img src="images/logo.svg" alt="logo">
+        </div>
+        <nav class="footer_nav1">
+            <ul class="footer_lista1">
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Install Guide</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Press Kit</a></li>
+            </ul>
+        </nav>
+        <ul class="footer_lista2">
             <li>
-                <h4>Quick Search</h4>
-                <p>Easily search your snippets by content, category, web address, application, and more.</p>
+                <img src="images/icon-facebook.svg" alt="face">
             </li>
             <li>
-                <h4>iCloud Sync</h4>
-                <p>Instantly saves and syncs snippets across all your devices.</p>
+                <img src="images/icon-twitter.svg" alt="twitter">
             </li>
             <li>
-                <h4>Complete History</h4>
-                <p>Retrieve any snippets from the first moment you started using the app./p>
+                <img src="images/icon-instagram.svg" alt="insta">
             </li>
         </ul>
-    </section>
-    <section>
-        <div>
-            <h3>Access Clipboard anywhere</h3>
-            <p>Whether you're on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
-        </div>
-        <div class="computador_vermelho">
-            <img src="images/image-devices.png" alt="Imagem Devices">
-        </div>
-        <div>
-            <h3>Supercharge your workflow</h3>
-            <p>We've got the tools to boost your productivity.</p>
-        </div>
-
-</section>
-    
+    </footer>
 </body>
+
 </html>

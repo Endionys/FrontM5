@@ -1,0 +1,40 @@
+.paragrafo_1{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.para_img_1{
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.para_texto{
+    width: 45%;
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+h2{
+    margin-bottom: 10px;
+    font-weight:600;    
+    font-size:40px;
+}
+.paragrafo_1 p{
+    margin-bottom: 20px;
+}
+.botoes{
+    display: flex;
+    gap: 20px;
+}
+#botoes1, #botoes2{
+    border-radius: 10rem;
+    width: 216px;
+    height: 53px;
+}
+#botoes1{
+    color: whitesmoke;
+    background-color: hsl(171, 66%, 44%);
+    border: 10px solid hsl(171, 66%, 44%);
+ }
